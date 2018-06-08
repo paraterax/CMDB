@@ -1,0 +1,27 @@
+{
+	"version": "0.1.0",
+	"command": "npm",
+	"isShellCommand": true,
+	"tasks": [
+		{
+			"args": ["run", "devbuild-chrome"],
+			"taskName": "devbuild-chrome",
+			"suppressTaskName": true,
+			"isTestCommand": true,
+			"echoCommand": true
+		},
+		{
+			"args": ["run", "build-chrome"],
+			"taskName": "build-chrome",
+			"suppressTaskName": true,
+			"isBuildCommand": true,
+			"echoCommand": true
+		},
+		{
+			"args": ["install"],
+			"taskName": "install",
+			"suppressTaskName": true,
+			"echoCommand": true
+		}
+	]
+}

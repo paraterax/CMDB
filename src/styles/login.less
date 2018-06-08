@@ -1,0 +1,57 @@
+.login{
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .navbar {
+        margin-bottom: 0;
+    }
+    .navbar-default {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-color: transparent;
+        box-shadow: none;
+    }
+    .form-group{
+        margin-bottom: 30px;
+    }
+    .login-form-wrap {
+        position: relative;
+        top: 50%;
+        margin: -210px auto 0 auto;
+        animation: login-form-wrap-animation .2s;
+    }
+    .login-form {
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+
+        .title {
+            color: #ffffff;
+            font-size: 28px;
+            text-align: center;
+        }
+    }
+    @media (min-width: 468px){
+        .container {
+            width: 450px;
+        }
+    }
+    .social-or-login{
+        color:#ffffff;
+        line-height: 24px
+    }
+    .social-login{
+        color:#ffffff;
+        line-height: 24px;
+        a{
+            margin: 0 5px;
+        }
+    }
+}
+
+@keyframes login-form-wrap-animation {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,481 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot');
+  src:  url('fonts/icomoon.eot') format('embedded-opentype'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zoomreset:before {
+  content: "\e977";
+}
+.icon-manual-recovery:before {
+  content: "\e934";
+}
+.icon-zoomin:before {
+  content: "\e936";
+}
+.icon-search:before {
+  content: "\e937";
+}
+.icon-grouping:before {
+  content: "\e942";
+}
+.icon-binding:before {
+  content: "\e961";
+}
+.icon-zoomout:before {
+  content: "\e982";
+}
+.icon-choose:before {
+  content: "\e983";
+}
+.icon-default:before {
+  content: "\e984";
+}
+.icon-move:before {
+  content: "\e985";
+}
+.icon-pan:before {
+  content: "\e986";
+}
+.icon-bind2 .path1:before {
+  content: "\e96b";
+  color: rgb(0, 0, 0);
+}
+.icon-bind2 .path2:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cmdb:before {
+  content: "\e96c";
+}
+.icon-storage:before {
+  content: "\e96d";
+}
+.icon-delete:before {
+  content: "\e96e";
+}
+.icon-search2:before {
+  content: "\e96f";
+}
+.icon-add:before {
+  content: "\e970";
+}
+.icon-bell:before {
+  content: "\e971";
+}
+.icon-node-bind:before {
+  content: "\e972";
+}
+.icon-chart:before {
+  content: "\e973";
+}
+.icon-edit:before {
+  content: "\e974";
+}
+.icon-warn:before {
+  content: "\e975";
+}
+.icon-statistics:before {
+  content: "\e976";
+}
+.icon-monitor-center:before {
+  content: "\e978";
+}
+.icon-batch-edit:before {
+  content: "\e979";
+}
+.icon-batch-delete:before {
+  content: "\e97a";
+}
+.icon-time:before {
+  content: "\e97b";
+}
+.icon-origin:before {
+  content: "\e97c";
+}
+.icon-logout:before {
+  content: "\e97d";
+}
+.icon-scene:before {
+  content: "\e97e";
+}
+.icon-user2:before {
+  content: "\e97f";
+}
+.icon-asset-center:before {
+  content: "\e980";
+}
+.icon-dirs:before {
+  content: "\e967";
+}
+.icon-files:before {
+  content: "\e968";
+}
+.icon-interactive:before {
+  content: "\e969";
+}
+.icon-readAll:before {
+  content: "\e954";
+}
+.icon-edits:before {
+  content: "\e966";
+}
+.icon-resetPwd:before {
+  content: "\e94f";
+}
+.icon-license:before {
+  content: "\e950";
+}
+.icon-tel:before {
+  content: "\e951";
+}
+.icon-email:before {
+  content: "\e952";
+}
+.icon-contacts:before {
+  content: "\e953";
+}
+.icon-dir:before {
+  content: "\e965";
+  color: #717071;
+}
+.icon-dashboard:before {
+  content: "\e964";
+}
+.icon-userInfo:before {
+  content: "\e963";
+}
+.icon-danger2 .path1:before {
+  content: "\e905";
+  color: rgb(255, 0, 0);
+}
+.icon-danger2 .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-danger2 .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-createRule .path1:before {
+  content: "\e900";
+  color: rgb(181, 181, 181);
+}
+.icon-createRule .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(181, 181, 181);
+}
+.icon-createRule .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(181, 181, 181);
+}
+.icon-createRule .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(51, 131, 217);
+}
+.icon-createRule .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-interAppName .path1:before {
+  content: "\e908";
+  color: rgb(79, 93, 115);
+}
+.icon-interAppName .path2:before {
+  content: "\e909";
+  margin-left: -1.08203125em;
+  color: rgb(255, 255, 255);
+}
+.icon-CPU:before {
+  content: "\e90a";
+}
+.icon-icon-12:before {
+  content: "\e90b";
+}
+.icon-cpuUsed:before {
+  content: "\e90c";
+}
+.icon-linux:before {
+  content: "\e90d";
+}
+.icon-pri-bind:before {
+  content: "\e90e";
+}
+.icon-localstorage:before {
+  content: "\e90f";
+}
+.icon-toUnread:before {
+  content: "\e910";
+}
+.icon-toRead:before {
+  content: "\e911";
+}
+.icon-success:before {
+  content: "\e912";
+}
+.icon-successFull:before {
+  content: "\e913";
+}
+.icon-disk:before {
+  content: "\e914";
+}
+.icon-error:before {
+  content: "\e915";
+}
+.icon-print:before {
+  content: "\e916";
+}
+.icon-export:before {
+  content: "\e917";
+}
+.icon-import:before {
+  content: "\e918";
+}
+.icon-back:before {
+  content: "\e919";
+}
+.icon-share:before {
+  content: "\e91a";
+}
+.icon-workFlow:before {
+  content: "\e91b";
+}
+.icon-workBench:before {
+  content: "\e91c";
+}
+.icon-links:before {
+  content: "\e91d";
+}
+.icon-deskTop:before {
+  content: "\e91e";
+}
+.icon-NodeNum:before {
+  content: "\e91f";
+}
+.icon-group2:before {
+  content: "\e920";
+}
+.icon-department:before {
+  content: "\e921";
+}
+.icon-disableWarn .path1:before {
+  content: "\e922";
+  color: rgb(181, 181, 181);
+}
+.icon-disableWarn .path2:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(181, 181, 181);
+}
+.icon-disableWarn .path3:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(181, 181, 181);
+}
+.icon-disableWarn .path4:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(231, 18, 0);
+}
+.icon-disableWarn .path5:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-disableWarn .path6:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-danger:before {
+  content: "\e928";
+}
+.icon-memUsed:before {
+  content: "\e929";
+}
+.icon-jobs:before {
+  content: "\e92a";
+}
+.icon-start:before {
+  content: "\e92b";
+}
+.icon-starts:before {
+  content: "\e92c";
+}
+.icon-startWarn .path1:before {
+  content: "\e92d";
+  color: rgb(181, 181, 181);
+}
+.icon-startWarn .path2:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(181, 181, 181);
+}
+.icon-startWarn .path3:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(181, 181, 181);
+}
+.icon-startWarn .path4:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(51, 131, 217);
+}
+.icon-startWarn .path5:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-cancelJobs:before {
+  content: "\e932";
+}
+.icon-logs:before {
+  content: "\e933";
+}
+.icon-refresh:before {
+  content: "\e935";
+}
+.icon-stop:before {
+  content: "\e938";
+}
+.icon-workStation:before {
+  content: "\e939";
+}
+.icon-net:before {
+  content: "\e93a";
+}
+.icon-file:before {
+  content: "\e93b";
+}
+.icon-folder:before {
+  content: "\e93c";
+}
+.icon-down:before {
+  content: "\e93d";
+}
+.icon-next:before {
+  content: "\e93e";
+}
+.icon-download:before {
+  content: "\e93f";
+}
+.icon-detail:before {
+  content: "\e940";
+}
+.icon-message:before {
+  content: "\e941";
+}
+.icon-appSubmit:before {
+  content: "\e943";
+}
+.icon-resubmit:before {
+  content: "\e944";
+}
+.icon-suspendJob:before {
+  content: "\e945";
+}
+.icon-normal:before {
+  content: "\e946";
+}
+.icon-report:before {
+  content: "\e947";
+}
+.icon-tonoread:before {
+  content: "\e948";
+}
+.icon-toreads:before {
+  content: "\e949";
+}
+.icon-voltage:before {
+  content: "\e94a";
+}
+.icon-warning:before {
+  content: "\e94b";
+}
+.icon-power:before {
+  content: "\e94c";
+}
+.icon-monitor:before {
+  content: "\e94d";
+}
+.icon-nodeNums:before {
+  content: "\e94e";
+}
+.icon-warnGreen .path1:before {
+  content: "\e955";
+  color: rgb(51, 131, 217);
+}
+.icon-warnGreen .path2:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(51, 131, 217);
+}
+.icon-warnGreen .path3:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(51, 131, 217);
+}
+.icon-warnGreen .path4:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(0, 189, 0);
+}
+.icon-warnGreen .path5:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-mem:before {
+  content: "\e95a";
+}
+.icon-log:before {
+  content: "\e95b";
+}
+.icon-rate:before {
+  content: "\e95c";
+}
+.icon-loginOut:before {
+  content: "\e95d";
+}
+.icon-nets:before {
+  content: "\e95e";
+}
+.icon-tem:before {
+  content: "\e95f";
+}
+.icon-app:before {
+  content: "\e960";
+}
+.icon-money:before {
+  content: "\e962";
+}
+.icon-currSeat:before {
+  content: "\e96a";
+}

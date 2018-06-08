@@ -1,0 +1,24 @@
+{
+  "name": "cmdb",
+  "version": "1.0.0",
+  "description": "cmdb",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh:/git@git.paratera.net:ParaData/CMDB.git"
+  },
+  "dependencies": {
+    "animate.css": "^3.1.0",
+    "antd": "^2.11.2",
+    "highcharts": "^5.0.0",
+    "js-base64": "^2.1.9",
+    "react-color": "^2.13.4",
+    "react-contextmenu": "^1.6.2",
+    "react-custom-scrollbars": "^4.0.0",
+    "react-draggable": "^2.2.6",
+    "react-websocket": "^1.1.7",
+    "rrw_preset": "^1.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+export const WARN_RULE_NODE = 'WARN_RULE_NODE'
+export const WARN_RULE_LIST = 'WARN_RULE_LIST'
+export const SAVE_RULE = 'SAVE_RULE'
+export const ALARM_LIST_BY_NODE = 'ALARM_LIST_BY_NODE'
+export const FIND_RULE_TAG = 'FIND_RULE_TAG'
+export const UN_BIND_RULE = 'UN_BIND_RULE'
+export const FIND_RULE_BY_ID = 'FIND_RULE_BY_ID'
+export const BIND_RULE = 'BIND_RULE'
+export const RULE_LIST_BY_TYPE = "RULE_LIST_BY_TYPE"
+export const BIND_NODES = "BIND_NODES"
+export const EXPRESSION_LIST = "EXPRESSION_LIST"
+export const FIELD_LIST = "FIELD_LIST"
+export const UNBIND_NODE = "UNBIND_NODE"
+export const ASSET_INFO_NODE = "ASSET_INFO_NODE"
+export const ASSET_INFO_NODES = "ASSET_INFO_NODES"

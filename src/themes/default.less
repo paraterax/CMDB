@@ -1,0 +1,110 @@
+@import "~normalize.css/normalize.css";
+@import "~antd/lib/style/themes/default";
+@import "./antd_default";
+@import "./bs_default";
+
+/***************  antd ***************/
+// antd core
+@import "~antd/lib/style/mixins/index";
+@import "~antd/lib/style/core/iconfont";
+@import "~antd/lib/style/core/motion";
+
+// antd Components
+@import "~antd/lib/breadcrumb/style/index.less";
+@import "~antd/lib/button/style/index.less";
+@import "~antd/lib/calendar/style/index.less";
+@import "~antd/lib/date-picker/style/index.less";
+@import "~antd/lib/dropdown/style/index.less";
+@import "~antd/lib/input/style/index.less";
+@import "~antd/lib/input-number/style/index.less";
+@import "~antd/lib/menu/style/index.less";
+@import "~antd/lib/modal/style/index.less";
+@import "~antd/lib/popover/style/index.less";
+@import "~antd/lib/progress/style/index.less";
+@import "~antd/lib/select/style/index.less";
+@import "~antd/lib/spin/style/index.less";
+@import "~antd/lib/steps/style/index.less";
+@import "~antd/lib/table/style/index.less";
+@import "~antd/lib/tabs/style/index.less";
+@import "~antd/lib/time-picker/style/index.less";
+@import "~antd/lib/tooltip/style/index.less";
+@import "~antd/lib/transfer/style/index.less";
+@import "~antd/lib/tree/style/index.less";
+@import "~antd/lib/tree-select/style/index.less";
+
+
+/***************  bootstrap ***************/
+// bootstrap Components
+@import "~bootstrap/less/utilities";
+@import "~bootstrap/less/glyphicons";
+
+// Core CSS
+@import "~bootstrap/less/scaffolding";
+@import "~bootstrap/less/type";
+@import "~bootstrap/less/grid";
+@import "~bootstrap/less/tables";
+@import "~bootstrap/less/forms";
+@import "~bootstrap/less/buttons";
+
+// Components
+@import "~bootstrap/less/dropdowns";
+@import "~bootstrap/less/button-groups";
+@import "~bootstrap/less/input-groups";
+@import "~bootstrap/less/navs";
+@import "~bootstrap/less/navbar";
+@import "~bootstrap/less/pagination";
+@import "~bootstrap/less/pager";
+@import "~bootstrap/less/labels";
+@import "~bootstrap/less/badges";
+@import "~bootstrap/less/thumbnails";
+@import "~bootstrap/less/alerts";
+@import "~bootstrap/less/progress-bars";
+@import "~bootstrap/less/media";
+@import "~bootstrap/less/list-group";
+@import "~bootstrap/less/close";
+
+// Components w/ JavaScript
+@import "~bootstrap/less/tooltip";
+@import "~bootstrap/less/popovers";
+
+// Utility classes
+@import "~bootstrap/less/responsive-utilities";
+
+/***************  animate.css ***************/
+@import "~animate.css/animate.css";
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.navbar-default {
+    box-shadow: 2px 2px 6px @navbar-default-border;
+    background:#fff;
+    .navbar-nav {
+        > li > a.active {
+            &,
+            &:hover,
+            &:focus {
+                color: @navbar-default-link-active-color;
+                background-color: @navbar-default-link-active-bg;
+            }
+
+
+        }
+        .glyphicon {
+                display:block;
+                font-size:21px;
+            }
+    }
+}
+.navbar-brand {
+	padding: 12px 0 0 5px;
+}
+.ant-breadcrumb > span:last-child{
+    font-weight:normal;
+    color:#666
+}
+
+.display-none{
+    display:none !important
+}
